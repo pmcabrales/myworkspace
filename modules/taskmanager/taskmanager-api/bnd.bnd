@@ -1,0 +1,10 @@
+Bundle-Name: taskmanager-api
+Bundle-SymbolicName: com.pmc.task.manager.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.pmc.task.manager.exception,\
+	com.pmc.task.manager.model,\
+	com.pmc.task.manager.service,\
+	com.pmc.task.manager.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../taskmanager-service/service.xml

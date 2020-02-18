@@ -1,0 +1,4 @@
+Bundle-Name: taskmanager-web
+Bundle-SymbolicName: com.pmc.task.manager
+Bundle-Version: 1.0.0
+Export-Package: com.pmc.task.manager.constants
